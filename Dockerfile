@@ -1,2 +1,3 @@
 FROM tomcat
-COPY /root/dicet_tv/target/*.war /usr/local/tomcat/webapps/ROOT.war
+COPY /home/ec2-user/testnode/testnode/workspace/Docker-j/target
+/*.war /usr/local/tomcat/webapps/app.war
