@@ -1,2 +1,2 @@
 FROM tomcat
-COPY dicet_tv/target/*.war tomcat/webapps/app.war
+COPY /home/ec2-user/testnode/testnode/workspace/Docker-j/target/*.war tomcat/webapps/app.war
